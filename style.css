@@ -15,12 +15,27 @@
 .sidebar{
     background-image: linear-gradient(to right, rgb(195, 81, 174), rgb(79, 13, 87));
     grid-area: 1 / 1 / 3 / 1;
+
+    display: grid;
+    align-content: start;
 }
+
+.sidebar li{
+    list-style: none;
+}
+
+.sidebar-mid{
+    display: grid;
+    margin-top: 4rem; 
+}
+
+.sidebar-bottom{
+    margin-top: 4rem;
+}
+
 
 .header{
     grid-area: 1 / 2 / 1 / 2;
-    
-
 }
 
 .main{
