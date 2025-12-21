@@ -57,6 +57,22 @@
     grid-area: 1 / 2 / 1 / 2;
 }
 
+button{
+    background-image: linear-gradient(to left, rgb(195, 81, 174), rgb(79, 13, 87));
+    color: white;
+    border: none;
+
+    width: 8rem;
+    height: 2.5rem;
+
+    border-radius: 10px;
+}
+
+.header-br{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
 /*line*/
 .main{
     background-color: rgb(225, 219, 219);
@@ -72,6 +88,24 @@
     grid-template-rows: 1fr 1fr;
     padding: 2rem;
 }
+
+input[type="text"] {
+  border: 1px solid #ccc;
+  width: 60%;
+  background-color: lightgrey;
+  border-radius: 5px;
+  padding: .3rem;
+ 
+}
+
+.header-tr{
+    display: grid;
+    justify-self: flex-end;
+    padding-right: 25px;
+
+    font-size: large;
+}
+
 /* Header End*/
 
 /* Body start*/
