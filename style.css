@@ -71,7 +71,14 @@ button{
 .header-br{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
+    padding: 15px;
+
+    gap: 5px;
+}
+
+.profile-pic{
+    position: relative;
+    top: 27px;
 }
 /*line*/
 .main{
@@ -86,7 +93,7 @@ button{
     display: grid;
     grid-template-columns: 2fr 1fr ;
     grid-template-rows: 1fr 1fr;
-    padding: 2rem;
+    padding: 1.8rem;
 }
 
 input[type="text"] {
@@ -100,10 +107,13 @@ input[type="text"] {
 
 .header-tr{
     display: grid;
-    justify-self: flex-end;
-    padding-right: 25px;
+    justify-content: end;
+    padding-right: 55px;
+    font-size: larger;
 
-    font-size: large;
+    position: relative;
+    top: -35px;
+    
 }
 
 /* Header End*/
@@ -157,3 +167,18 @@ input[type="text"] {
 }
 
 /* Body end*/
+
+/* hover buttons, sidebar, and cells*/
+
+li:hover{
+    transform: scale(1.1) ;
+}
+
+.content-box:hover{
+    transform: scale(1.03);
+}
+
+button:hover{
+    transform: scale(1.07);
+}
+
