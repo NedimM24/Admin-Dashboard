@@ -92,6 +92,21 @@
     border-radius: 5px;
     padding: 10px;
     border-left: solid 3px purple;
+    display: grid;
 }
 
-/* Body start*/
+.emoji{
+    padding-right: 1rem;
+    justify-self: end;
+}
+
+
+
+.main-right{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 25px;
+    padding-left: 25px;
+}
+
+/* Body end*/
