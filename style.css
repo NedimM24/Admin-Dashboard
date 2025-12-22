@@ -61,6 +61,8 @@ button{
     background-image: linear-gradient(to left, rgb(195, 81, 174), rgb(79, 13, 87));
     color: white;
     border: none;
+    font-size: medium;
+    font-weight: bold;
 
     width: 8rem;
     height: 2.5rem;
