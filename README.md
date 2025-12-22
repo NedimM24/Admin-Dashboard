@@ -1,4 +1,3 @@
 # Admin-Dashboard
 
-
-<img width="2550" height="1283" alt="ya" src="https://github.com/user-attachments/assets/17a33e7c-aaa8-4c23-b8aa-c0f84289f8de" />
+<img width="2557" height="1287" alt="ya" src="https://github.com/user-attachments/assets/c024d84e-2fce-4a7b-a86a-6afbcafc7ef9" />
